@@ -489,7 +489,7 @@ function generateRefinementList() {
 
   var entities = istar.models.currentCatalog.actors[0].nodes;
 
-  $(".refinements-container").empty();
+  $("#refinements-list").empty();
 
     for (var i = 0; i < relationships.length; i++) {
       //We also need to check if it's a subcategory of something that is already checked if it is we add it to the diagram
@@ -507,7 +507,7 @@ function generateRefinementList() {
           $(`#${tid}`).append(`, ${sourceName}`);
         } else {
           
-          $(".refinements-container").append(`
+          $("#refinements-list").append(`
             <div class="refinement">
             <p id=${tid} >${targetName} <span class="glyphicon glyphicon-arrow-right"></span> ${sourceName}</p>
             </div>

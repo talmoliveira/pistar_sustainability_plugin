@@ -480,7 +480,6 @@ function showRefinementModal() {
 //@mode if true it generates the relationship list for the sustainability dimensions button, else it generates it based on the relationship type;
 function generateRefinementList() {
   // console.log("this got called");
-  $(".relationship-container").empty();
 
   console.log("called");
 
@@ -489,6 +488,8 @@ function generateRefinementList() {
   var relationships = istar.models.currentCatalog.links;
 
   var entities = istar.models.currentCatalog.actors[0].nodes;
+
+  $("#refinements-list ").empty();
 
     for (var i = 0; i < relationships.length; i++) {
       //We also need to check if it's a subcategory of something that is already checked if it is we add it to the diagram

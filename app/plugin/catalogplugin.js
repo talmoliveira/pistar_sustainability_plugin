@@ -38,6 +38,8 @@ $(document).ready(function () {
             </div>
             <div class="modal-body">
                 <em>You may choose any of the requirements below, the tool will create what you ask based on the requirements chosen.<br>
+                You may toggle collapsing/expanding any part of the catalog through holding left shift and clicking on any of the qualities of the catalog.<br>
+                If you want to reset the collapsing/expanding of the catalog simply hold left shift and click on the "sustainability" quality twice.
                 You can see the definition of each sustainability requirement in it's tooltip by hovering over its name or its checkbox <br>
                 Note that generating the catalog will overwrite the current diagram, be careful not to lose any of your work.
                 </em><br><br>
@@ -999,7 +1001,7 @@ var dictionary = {
   "Extensibility": "The effort required to implement the extension.",
   "Interoperability": "Capability of the system to couple software systems together.",
   "Co-existence": "The product can perform its functions efficiently while sharing its environment and resources with other products",
-  "Availability": "The system is able to function during “normal operating times” ability of the user to access resources in a sustainable environment (?)",
+  "Availability": "The system is able to function during “normal operating times”",
   "Usefulness": "User is satisfied with their perceived achievement of pragmatic goals.",
   "Greenability": "The degree to which a product energy and the resources are optimised, and the product can be used over a long period. This main characteristic includes energy efficiency, resource optimisation, capacity optimisation, and perdurability sub-characteristics.",
   "Functional suitability": "Degree to which a product or system provides the minimal impacts, in which the function performed the accurate result to avoid waste due to the un-functional of computing resources degree to which a product or system provides the accurate function or tasks to minimize the cost of development degree to which a product or system provides the accurate functions or tasks to support the reasonable and acceptable outcomes to achieve the specified intended objective",
